@@ -16,7 +16,7 @@ void draw() {
 Use modulo to make the colors alternate between yellow and black
 */
 int size = 400 ;
-drawBeeFace(400,400);
+
   //Starting with the largest ellipse, use a for loop to draw a bullseye with ellipses.
   for(int i = 40; i>0; i--){
    if (i % 2 == 0) {
@@ -28,10 +28,13 @@ fill(#030303);
     ellipse(size,size,50,50);
     size-=10;
   }
-
+drawBeeFace(400,400);
 
 /*
 Now put his head on using drawBeeFace(x,y)
+
+
+
 */
 
 }
